@@ -1,0 +1,78 @@
+body {
+
+    background-color: #fcfcfc;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-gradient {
+    /* background-image: linear-gradient(to right, red, yellow); */
+    background: linear-gradient(90deg, rgba(27, 24, 237, 1) 0%, rgba(38, 60, 247, 1) 18%, rgba(252, 68, 236, 1) 100%);
+}
+
+/* navbar Start */
+.navbar-brand {
+    color: #fff !important;
+    font-size: 22px;
+}
+
+.navbar-brand:hover {
+    color: #fff !important;
+    ;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    ;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    ;
+}
+
+.navbar-nav .dropdown-menu {
+    margin-top: -1px !important;
+}
+
+.dropdown-menu {
+    border-radius: 0px !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #fff;
+    background-color: #16181b;
+}
+
+@media all and (min-width: 992px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .navbar .nav-link {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* navbar end */
