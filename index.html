@@ -1426,12 +1426,471 @@
     <section class="badges py-5">
         <div class="container">
             <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Input Groups</h1>
+            <div class="abc">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
 
-            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Contextual variations</p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                    </div>
+                </div>
 
-            <div class="text-center">
+                <label for="basic-url">Your vanity URL</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                    </div>
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">With textarea</span>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
             </div>
 
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Sizing</p>
+            <div class="abc">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg">
+                </div>
+            </div>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Wrapping</p>
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="addon-wrapping">
+            </div>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Checkboxes and radios</p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="radio" aria-label="Radio button for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with radio button">
+            </div>
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Multiple inputs</p>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">First and last name</span>
+                </div>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+            </div>
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Button addons</p>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                </div>
+                <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon"
+                    aria-describedby="button-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" id="button-addon3">
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                </div>
+                <input type="text" class="form-control" placeholder="" aria-label="Example text with two button addons"
+                    aria-describedby="button-addon3">
+            </div>
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Recipient's username"
+                    aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+                <div class="input-group-append" id="button-addon4">
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                </div>
+            </div>
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Buttons with dropdowns</p>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
+
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+            </div>
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Segmented buttons</p>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button type="button" class="btn btn-outline-secondary">Action</button>
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+            </div>
+
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-outline-secondary">Action</button>
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+            </div>
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Custom file input
+                Upload</p>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                    <label class="custom-file-label" for="inputGroupFile02"
+                        aria-describedby="inputGroupFileAddon02">Choose file</label>
+                </div>
+                <div class="input-group-append">
+                    <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                </div>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Button</button>
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile03"
+                        aria-describedby="inputGroupFileAddon03">
+                    <label class="custom-file-label" for="inputGroupFile03">Choose file</label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile04"
+                        aria-describedby="inputGroupFileAddon04">
+                    <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="badges py-5">
+        <div class="container">
+            <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Jumbotron</h1>
+            <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                    attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Fluid jumbotron</p>
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Fluid jumbotron</h1>
+                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
+                        parent.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="badges py-5">
+        <div class="container">
+            <h1 class="display-4 text-center text-danger font-weight-bold mb-4">List group</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-group">
+                        <li class="list-group-item disabled" aria-disabled="true">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Links and buttons</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            Cras justo odio
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
+                            aria-disabled="true">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                            Cras justo odio
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis
+                            in</button>
+                        <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+                        <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur
+                            ac</button>
+                        <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at
+                            eros</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">With badges</p>
+
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Cras justo odio
+                    <span class="badge badge-primary badge-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Dapibus ac facilisis in
+                    <span class="badge badge-primary badge-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Morbi leo risus
+                    <span class="badge badge-primary badge-pill">1</span>
+                </li>
+            </ul>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Contextual variations</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
+                                risus varius blandit.
+                            </p>
+                            <small>Donec id elit non mi porta.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
+                                risus varius blandit.
+                            </p>
+                            <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
+                                risus varius blandit.
+                            </p>
+                            <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                    data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                    data-toggle="list" href="#list-profile" role="tab"
+                                    aria-controls="profile">Profile</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                    data-toggle="list" href="#list-messages" role="tab"
+                                    aria-controls="messages">Messages</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-toggle="list" href="#list-settings" role="tab"
+                                    aria-controls="settings">Settings</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                    aria-labelledby="list-home-list">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Minus aliquid iusto facere? Corrupti, odit quo est fuga recusandae aliquam
+                                    nihil? Incidunt numquam, doloribus, inventore exercitationem nostrum asperiores unde
+                                    eveniet, vitae aperiam atque dolor vel iste enim. Odit deleniti magnam neque, aut
+                                    debitis voluptates facere sed. Esse iusto autem quaerat modi?</div>
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                    aria-labelledby="list-profile-list">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Eligendi ea odit quisquam optio dolor sint doloremque? Quisquam
+                                    possimus ipsa, ipsum nostrum ullam deserunt numquam fuga omnis explicabo quidem
+                                    veniam quam tempora ratione voluptatum obcaecati recusandae neque maiores quibusdam
+                                    dolorum, consequatur natus quo. Vero, nesciunt? Voluptates reiciendis exercitationem
+                                    impedit blanditiis rem.</div>
+                                <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                    aria-labelledby="list-messages-list">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Eligendi ea odit quisquam optio dolor sint doloremque? Quisquam
+                                    possimus ipsa, ipsum nostrum ullam deserunt numquam fuga omnis explicabo quidem
+                                    veniam quam tempora ratione voluptatum obcaecati recusandae neque maiores quibusdam
+                                    dolorum, consequatur natus quo. Vero, nesciunt? Voluptates reiciendis exercitationem
+                                    impedit blanditiis rem.</div>
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                                    aria-labelledby="list-settings-list">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Eligendi ea odit quisquam optio dolor sint doloremque? Quisquam
+                                    possimus ipsa, ipsum nostrum ullam deserunt numquam fuga omnis explicabo quidem
+                                    veniam quam tempora ratione voluptatum obcaecati recusandae neque maiores quibusdam
+                                    dolorum, consequatur natus quo. Vero, nesciunt? Voluptates reiciendis exercitationem
+                                    impedit blanditiis rem.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Contextual variations</p>
         </div>
     </section>
 
@@ -1447,8 +1906,6 @@
 
         </div>
     </section>
-
-
     <section class="badges py-5">
         <div class="container">
             <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Badges</h1>
@@ -1460,8 +1917,39 @@
 
         </div>
     </section>
+    <section class="badges py-5">
+        <div class="container">
+            <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Badges</h1>
 
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Contextual variations</p>
 
+            <div class="text-center">
+            </div>
+
+        </div>
+    </section>
+    <section class="badges py-5">
+        <div class="container">
+            <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Badges</h1>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Contextual variations</p>
+
+            <div class="text-center">
+            </div>
+
+        </div>
+    </section>
+    <section class="badges py-5">
+        <div class="container">
+            <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Badges</h1>
+
+            <p class="lead pb-1 text-center text-info font-weight-bold py-4">Contextual variations</p>
+
+            <div class="text-center">
+            </div>
+
+        </div>
+    </section>
     <section class="badges py-5">
         <div class="container">
             <h1 class="display-4 text-center text-danger font-weight-bold mb-4">Badges</h1>
